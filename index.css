@@ -17,10 +17,12 @@ body {
 }
 
 .container {
+  width: 400px;
+  height: 650px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   margin-top: 50px;
   margin-left: 150px;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -38,5 +40,51 @@ h1 {
   letter-spacing: 0em;
   text-align: left;
   color: rgba(255, 255, 255, 1);
+}
+
+h2 {
+  width: 160px;
+  height: 20px;
+  top: 418px;
+  left: 114px;
+  font-family: Josefin Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  font-family: Josefin Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.input {
+  width: 320px;
+  height: 120px;
+  border-radius: 8px;
+  background: rgba(68, 64, 89, 1);
+}
+
+button {
+  width: 317;
+  height: 61;
+  top: 333;
+  left: 36;
+  border-radius: 8;
+  background: rgba(40, 169, 241, 1);
+  margin-top: 10px;
+  border: none;
+  padding: 20px 25px;
+  border-radius: 8px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
 }
 
